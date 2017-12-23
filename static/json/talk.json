@@ -1,0 +1,61 @@
+{
+	"result":[
+		{
+			"id":1,
+			"img":"../static/talk1img/wc.png",
+			"text":"我是媒体人曾光明，有关传播、新闻等相关问题，请问我吧！",
+			"type":"教育",
+			"attention":"5868",
+			"question":"276",
+			"title":"曾光明/传媒人",
+			"head":"../static/talk1img/I0.png"
+		},
+				{
+			"id":2,
+			"img":"../static/talk1img/rs.png",
+			"text":"我是法律人黄晶，关于婚姻家庭、民事纠纷、劳动纠纷的相关问题，问我吧！",
+			"type":"法律",
+			"attention":"4.2万",
+			"question":"1720",
+			"title":"黄晶/司法行政",
+			"head":"../static/talk1img/Du.png"
+		},
+		{
+			"id":3,
+			"img":"../static/talk1img/6f.png",
+			"text":"我是航天人海洋知心，关于航空，空间站的相关问题，问我吧！",
+			"type":"科技",
+			"attention":"4.0万",
+			"question":"2524",
+			"title":"海洋知心/航天科技工作者",
+			"head":"../static/talk1img/k0.png"
+		},
+		{
+			"id":4,
+			"img":"../static/talk1img/J3.png",
+			"text":"我是心脏外科医师陶凉，关于身体健康、心脏病、心脏手术等相关问题，问我吧！",
+			"type":"健康",
+			"attention":"1.6万",
+			"question":"693",
+			"title":"陶凉/医生",
+			"head":"../static/talk1img/Dk.png"
+		},
+		{
+			"id":5,
+			"img":"../static/talk1img/wg.png",
+			"text":"我是近代史研究员张如，关于近代史的相关问题，问我吧！",
+			"type":"历史",
+			"attention":"652",
+			"question":"29",
+			"title":"张如/近代史研究员",
+			"head":"../static/talk1img/SY.png"
+		}
+		]
+
+
+
+
+
+
+
+}

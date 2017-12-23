@@ -3,8 +3,8 @@
     
     <router-view></router-view>
 
-    <ul class="footer">
-      <router-link to="/news">
+    <ul class="footer" v-show="$route.meta.navShow">
+      <router-link to="/news" active-class="active">
         <figure>  
           <div class="news-btn">      
           </div>
@@ -12,7 +12,7 @@
         </figure>
       </router-link>
 
-      <router-link to="/play">
+      <router-link to="/play" active-class="active">
         <figure>
           <div class="play-btn">  
           </div>
@@ -20,7 +20,7 @@
         </figure>
       </router-link>
 
-      <router-link to="/talk">
+      <router-link to="/talk" active-class="active">
         <figure>
           <div class="talk-btn">  
           </div>
@@ -28,7 +28,7 @@
         </figure>
       </router-link>
 
-      <router-link to="/mine">
+      <router-link to="/mine" active-class="active">
         <figure>
           <div class="mine-btn">  
           </div>
@@ -64,7 +64,7 @@ export default {
   background-color: #FFFFFF ;
   border-top: 0.0133rem solid #d9d9d9;
   display: flex;
-  position: absolute;
+  position: fixed;
   left: 0;
   bottom: 0;
 }
@@ -96,13 +96,14 @@ export default {
   width: 0.6rem;
   height: 0.6rem;
   margin: auto;
-  
 }
-.isActive figure figcaption{
-  color: red;
+.active>figure>div{
+  background-position: right top;
+}
+.active>figure>figcaption{
+  color:red;
 }
 .news-btn{
-  
   background: url(./assets/images/news-footer.png) no-repeat;
   background-size: 1.22rem;
 }
@@ -117,9 +118,6 @@ export default {
 .mine-btn{
   background: url(./assets/images/mine-footer.png) no-repeat;
   background-size: 1.22rem;
-}
-.isActive figure div{
-  background-position: right top;
 }
 
 
@@ -188,9 +186,7 @@ export default {
 .swiper-slide>img{
   width: 10rem;
 }
-.router-link-active{
-  display: none;
-}
+
 
 
 </style>

@@ -3,14 +3,21 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import axios from 'axios'
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+import 'swiper/dist/css/swiper.css'
 import 'lib-flexible/flexible.js'
 
-Vue.config.productionTip = false
 
+Vue.config.productionTip = false
+Vue.prototype.axios = axios
+Vue.use(VueAwesomeSwiper)
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,
+  axios,
+  VueAwesomeSwiper,
   template: '<App/>',
   components: { App }
 })
